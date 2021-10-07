@@ -1,0 +1,64 @@
+.Lists {
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+li {
+  width: 200px;
+  margin: auto;
+  padding-left: 40px;
+  text-align: left;
+  height: 40px;
+  background: #ffff;
+  line-height: 40px;
+  color: #666;
+  list-style: none;
+}
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
+button {
+  margin-left: -10px;
+  margin-right: 8px;
+  cursor: pointer;
+
+  border: none;
+  transition: background 0.5s ease-out;
+}
+.fas {
+  font-size: 1.1rem;
+  color: #ff6666;
+}
+button .fas:hover {
+  color: red;
+}
+.Button-clearAll {
+  position: absolute;
+  display: inline;
+  margin-top: -25px;
+  margin-left: 55px;
+}
+.Button {
+  width: 80px;
+  background-color: #c5c741;
+  border: none;
+  padding: 5px 7px;
+  text-align: center;
+  border-radius: 5px;
+}
+.Button:hover {
+  background: greenyellow;
+}
+p {
+  font-size: 0.9rem;
+  color: #ff6666;
+  font-weight: bold;
+}

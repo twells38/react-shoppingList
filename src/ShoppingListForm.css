@@ -1,0 +1,42 @@
+.Form-details {
+  display: flex;
+  flex-direction: column;
+}
+.Name {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.Label-Quantity {
+  margin-left: -30px;
+}
+.Quantity {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.Button {
+  width: 80px;
+  margin: auto;
+  background-color: #c5c741;
+  border: none;
+  padding: 5px 7px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  right: 18px;
+}
+.Button:hover {
+  background: greenyellow;
+}
+input {
+  font-size: 15px;
+  color: blue;
+  background-color: #f7f7f7;
+  padding: 5px 5px 5px 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+input:focus {
+  background: #f7f7f7;
+  border: 2px solid #c5c741;
+  outline: none;
+}
